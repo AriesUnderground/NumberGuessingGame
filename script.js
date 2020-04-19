@@ -2,7 +2,7 @@ var randnum=Math.floor(Math.random()*10)+1
 var tries=4
 function checkGuess() {
 	var inputVal=document.getElementById('guess').value
-	//alert(randnum +"   "+tries+"   "+inputVal)
+	alert(randnum +"   "+tries+"   "+inputVal)
 	if (tries > 0 ) {
 		if (inputVal != randnum) {
 			//document.getElementById('lives').label="you have "+tries+" lives remaining"
