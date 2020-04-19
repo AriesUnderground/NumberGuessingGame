@@ -3,10 +3,10 @@ var tries=4
 function checkGuess() {
 	var inputVal=document.getElementById('guess').value
 	//alert(randnum +"   "+tries+"   "+inputVal)
-	if (inputVal != randnum && tries>=0) {
+	if (inputVal != randnum && tries>0) {
 		//document.getElementById('lives').label="you have "+tries+" lives remaining"
 		
-		if (tries > 1 ){
+		if (tries > 1){
 			alert("you have "+tries+" lives remaining")
 		}else {
 			alert("you have "+tries+" life remaining")			
