@@ -1,7 +1,7 @@
 var randnum=Math.floor(Math.random()*10)+1
 var tries=4
 function checkGuess() {
-	var inputVal=document.getElementById('guess').value
+	var inputVal=parseInt(document.getElementById('guess').value);
 	//alert(randnum +"   "+tries+"   "+inputVal)
 	if (tries > 0 ) {
 		if (inputVal != randnum) {
